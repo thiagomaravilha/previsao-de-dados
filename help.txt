@@ -1,0 +1,16 @@
+Requisitos:
+
+pip install pandas
+pip install statsmodels
+
+
+-------------//---------------
+
+
+Como ARIMA é um modelo estatístico usado para prever séries temporais. O argumento df['Vendas'] é a série temporal que você deseja prever.
+
+A ordem (1,1,1) representa os parâmetros do modelo ARIMA:
+
+o primeiro número, 1, representa o número de termos auto-regressivos (AR)
+o segundo número, 1, representa o grau de integração (I)
+o terceiro número, 1, representa o número de termos médios móveis (MA)
